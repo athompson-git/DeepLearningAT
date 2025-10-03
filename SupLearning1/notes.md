@@ -34,8 +34,8 @@ want the minimum of the cost function $\min_{w,b} J(w,b)$
 * sometimes cost functions have very nontrivial (e.g. multimodal) shapes
 
 we use the update rule
-$$ w \to w - \alpha \frac{\partial}{\partial w} J(w,b) $$
-$$ b \to b - \alpha \frac{\partial}{\partial b} J(w,b) $$
+$ w \to w - \alpha \frac{\partial}{\partial w} J(w,b) $
+$ b \to b - \alpha \frac{\partial}{\partial b} J(w,b) $
 moving with the gradient of the cost function with respect to w and b as we move in the the space. This update takes place __simultaneously__. Here $\alpha$ is the __learning rate__.
 
 E.g.
