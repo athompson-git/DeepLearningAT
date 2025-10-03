@@ -35,9 +35,9 @@ want the minimum of the cost function $\min_{w,b} J(w,b)$
 
 we use the update rule
 
-$ w \rightarrow w - \alpha \frac{d}{d w} J(w,b) $
+$w \rightarrow w - \alpha \frac{d}{d w} J(w,b)$
 
-$ b \rightarrow b - \alpha \frac{d}{d b} J(w,b) $
+$b \rightarrow b - \alpha \frac{d}{d b} J(w,b)$
 
 moving with the gradient of the cost function with respect to w and b as we move in the the space. This update takes place __simultaneously__. Here $\alpha$ is the __learning rate__.
 
